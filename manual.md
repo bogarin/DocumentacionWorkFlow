@@ -8,6 +8,11 @@ Es una guía rapida de todotipo de comandos a usar para el uso de git, git flow 
     - [Creando Repositorio en GitHub](#creando-repositorio-en-github)
     - [Creando llaves y agregandola ah github](#creando-llaves-y-agregandola-ah-github)
     - [Conexion ha github por medio de https](#conexion-ha-github-por-medio-de-https)
+    - [Listado Comandos Usando Git Flow](#listado-comandos-usando-git-flow)
+      - [Feature](#feature)
+      - [Release](#release)
+      - [Hotfix](#hotfix)
+      - [Support](#support)
     - [Listado Comandos Más usados de Git](#listado-comandos-más-usados-de-git)
       - [Iniciando repositorio](#iniciando-repositorio)
       - [GIT CLONE](#git-clone)
@@ -116,7 +121,7 @@ A continuación, esto le indicará de forma interactiva algunas preguntas sobre 
 La ``-d`` bandera aceptará todos los valores predeterminados.
 
 
-### Creación de ramas de funciones/versiones/revisiones/soporte
+### Creación de ramas de feature/release/hotfix/support
 
 ### Feature
   * Para listar/comenzar/terminar, use:
@@ -159,7 +164,7 @@ La ``-d`` bandera aceptará todos los valores predeterminados.
   ```
 
   Para las ramas support, el `<base>` argumento debe ser una confirmación `master`.
-  
+
 ****
 ### Listado Comandos Más usados de Git
 
