@@ -118,46 +118,48 @@ La ``-d`` bandera aceptará todos los valores predeterminados.
 
 ### Creación de ramas de funciones/versiones/revisiones/soporte
 
-* Para listar/comenzar/terminar ramas de características, use:
-  
-  ```bash
-  		$ git flow feature
-  		$ git flow feature start <name> [<base>]
-  		$ git flow feature finish <name>
-  ```
-
-Para las ramas de características, el `<base>` argumento debe ser una confirmación `develop`.
-  
-* Para enviar/extraer una rama de funciones al repositorio remoto, use:
-```bash
-  		$ git flow feature publish <name>
-		  $ git flow feature pull <remote> <name>
-```
-* Para listar/comenzar/finalizar las ramas de lanzamiento, use:
+### Feature
+  * Para listar/comenzar/terminar, use:
     ```bash
-  		$ git flow release
-  		$ git flow release start <release> [<base>]
-  		$ git flow release finish <release>
-  ```
-
-  Para las ramas de lanzamiento, el `<base>` argumento debe ser una confirmación `develop`.
-
+      $ git flow feature
+      $ git flow feature start <name> [<base>]
+      $ git flow feature finish <name>
+    ```
   
-* Para enumerar/iniciar/finalizar las ramas de revisión, use:
-    ```bash
-  		$ git flow hotfix
-  		$ git flow hotfix start <release> [<base>]
-  		$ git flow hotfix finish <release>
-  ```
-  Para las ramas de revisión, el  `<base>`argumento debe ser una confirmación `master`.
+    Para las ramas feature, el `<base>` argumento debe ser una confirmación `develop`.
+    
+  * Para enviar/extraer una rama de feature al repositorio remoto, use:
+      ```bash
+      $ git flow feature publish <name>
+      $ git flow feature pull <remote> <name>
+      ```
+### Release
+  * Para listar/comenzar/finalizar, use:
+      ```bash
+      $ git flow release
+      $ git flow release start <release> [<base>]
+      $ git flow release finish <release>
+    ```
+  Para las ramas release, el `<base>` argumento debe ser una confirmación `develop`.
 
-* Para listar/iniciar ramas de soporte, use:
+### Hotfix
+  * Para enumerar/iniciar/finalizar, use:
+      ```bash
+      $ git flow hotfix
+      $ git flow hotfix start <release> [<base>]
+      $ git flow hotfix finish <release>
+    ```
+    Para las ramas hotfix, el  `<base>`argumento debe ser una confirmación `master`.
+
+### support
+* Para listar/iniciar , use:
     ```bash
     $ git flow support
     $ git flow support start <release> <base>
   ```
 
-  Para las ramas de soporte, el `<base>` argumento debe ser una confirmación `master`.
+  Para las ramas support, el `<base>` argumento debe ser una confirmación `master`.
+  
 ****
 ### Listado Comandos Más usados de Git
 
