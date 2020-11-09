@@ -8,11 +8,6 @@ Es una guía rapida de todotipo de comandos a usar para el uso de git, git flow 
     - [Creando Repositorio en GitHub](#creando-repositorio-en-github)
     - [Creando llaves y agregandola ah github](#creando-llaves-y-agregandola-ah-github)
     - [Conexion ha github por medio de https](#conexion-ha-github-por-medio-de-https)
-    - [Listado Comandos Usando Git Flow](#listado-comandos-usando-git-flow)
-      - [Feature](#feature)
-      - [Release](#release)
-      - [Hotfix](#hotfix)
-      - [Support](#support)
     - [Listado Comandos Más usados de Git](#listado-comandos-más-usados-de-git)
       - [Iniciando repositorio](#iniciando-repositorio)
       - [GIT CLONE](#git-clone)
@@ -28,6 +23,12 @@ Es una guía rapida de todotipo de comandos a usar para el uso de git, git flow 
       - [GIT REBASE](#git-rebase)
       - [OTROS COMANDOS](#otros-comandos)
       - [Fork](#fork)
+  - [Git Flow](#listado-comandos-usando-git-flow)
+      - [Feature](#feature)
+      - [Release](#release)
+      - [Hotfix](#hotfix)
+      - [Support](#support)
+      
   - [enlaces](#enlaces)
 
 ## Git
