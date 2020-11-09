@@ -152,7 +152,7 @@ Para las ramas de características, el `<base>` argumento debe ser una confirmac
   Para las ramas de revisión, el  `<base>`argumento debe ser una confirmación `master`.
 
 * Para listar/iniciar ramas de soporte, use:
-  ```bash
+    ```bash
     $ git flow support
     $ git flow support start <release> <base>
   ```
