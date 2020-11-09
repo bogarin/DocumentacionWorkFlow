@@ -4,7 +4,7 @@ Es una guía rapida de todotipo de comandos a usar para el uso de git, git flow 
 
   - [Git](#git)
     - [Configuración de Git](#configuración-de-git)
-    - [Inicio y conexión de reposiotio locoal y remoto](#inicio-y-conexión-de-reposiotio-locoal-y-remoto)
+    - [Inicio y conexión de reposiotio local y remoto](#inicio-y-conexión-de-reposiotio-local-y-remoto)
     - [Creando Repositorio en GitHub](#creando-repositorio-en-github)
     - [Creando llaves y agregandola ah github](#creando-llaves-y-agregandola-ah-github)
     - [Conexion ha github por medio de https](#conexion-ha-github-por-medio-de-https)
@@ -67,7 +67,7 @@ $ git config --global user.name
 ```
 ***
 
-### Inicio y conexión de reposiotio locoal y remoto
+### Inicio y conexión de reposiotio local y remoto
 
 cuando creamos por primera vez un repositorio tanto local como remoto, lo primero que tendremos que hacer es uvicarnos donde sera guardado el codigo localmente cuando nos indiquemos en la carpeta ideal aremso click derecho y escojeremos la herramiento de base de git(esto es en Windows)
 
