@@ -56,3 +56,22 @@ Por defecto, Git utiliza cualquier editor que hayas configurado como editor de t
 $ git config --global core.editor emacs
 ```
 
+Para conocer lo que tienes guardado en el archivo de configuracion tan solo tienes que poner 
+
+```bash
+$ git config --list
+```
+o solo inidicar lo que quieres ver como por ejemplo si realmente pusiste el nombre bien o ver si quieres cambiarlo despues.
+
+```bash 
+$ git config --global user.name
+```
+
+### Inicio y conexión de reposiotio locoal y remoto
+
+cuando creamos por primera vez un repositorio tanto local como remoto , lo primero que tendremos que hacer es uvicarnos donde sera guardado el codigo localmente cuando nos indiquemos en la carpeta ideal aremso click derecho y escojeremos la herramiento de basg de git( esot es en windows)
+
+![Figure 1](./images/bashgit.png)
+
+https://git-scm.com/book/es/v2/Personalizaci%C3%B3n-de-Git-Configuraci%C3%B3n-de-Git
+
