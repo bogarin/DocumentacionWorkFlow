@@ -71,7 +71,7 @@ $ git config --global user.name
 
 cuando creamos por primera vez un repositorio tanto local como remoto , lo primero que tendremos que hacer es uvicarnos donde sera guardado el codigo localmente cuando nos indiquemos en la carpeta ideal aremso click derecho y escojeremos la herramiento de basg de git( esot es en windows)
 
-[![Figure 1](./assets/bashGit.png)](./assets/bashGit.png)
+[![Figure 1](./assets/bashGit.png)](./assets/bashGit.png =10x20)
 
 https://git-scm.com/book/es/v2/Personalizaci%C3%B3n-de-Git-Configuraci%C3%B3n-de-Git
 
