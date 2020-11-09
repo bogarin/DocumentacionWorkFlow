@@ -9,6 +9,20 @@ Es una guía rapida de todotipo de comandos a usar para el uso de git, git flow 
     - [Creando llaves y agregandola ah github](#creando-llaves-y-agregandola-ah-github)
     - [Conexion ha github por medio de https](#conexion-ha-github-por-medio-de-https)
     - [Listado Comandos Más usados de Git](#listado-comandos-más-usados-de-git)
+      - [Iniciando repositorio](#iniciando-repositorio)
+      - [GIT CLONE](#git-clone)
+      - [GIT ADD](#git-add)
+      - [GIT COMMIT](#git-commit)
+      - [GIT PUSH](#git-push)
+      - [GIT LOG](#git-log)
+      - [GIT DIFF](#git-diff)
+      - [GIT HEAD](#git-head)
+      - [GIT REMOTE](#git-remote)
+      - [GIT BRANCH](#git-branch)
+      - [GIT TAG](#git-tag)
+      - [GIT REBASE](#git-rebase)
+      - [OTROS COMANDOS](#otros-comandos)
+      - [Fork](#fork)
   - [enlaces](#enlaces)
 
 ## Git
@@ -91,8 +105,6 @@ al haber echo eso todo los cambios estarán en la rama index del proyecto
 ****
 
 ### Listado Comandos Más usados de Git
-
-### Configuración Básica
 
 Configurar Nombre que salen en los commits
 ```bash
