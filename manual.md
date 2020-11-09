@@ -447,3 +447,8 @@ Merge con master de un fork
 ### Enlaces
 [configuracion git](https://git-scm.com/book/es/v2/Personalizaci%C3%B3n-de-Git-Configuraci%C3%B3n-de-Git)
 
+
+[git-flow](https://git.logikum.hu/)
+
+[git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.es_ES.html)
+
