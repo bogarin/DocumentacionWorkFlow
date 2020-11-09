@@ -103,7 +103,62 @@ al haber echo eso todo los cambios estarán en la rama index del proyecto
 
 
 ****
+### Listado Comandos Usando Git Flow
 
+### Inicialización
+
+Para inicializar un nuevo repositorio con la estructura básica de la rama, use:
+  ```bash
+		git flow init [-d]
+  ```
+A continuación, esto le indicará de forma interactiva algunas preguntas sobre qué ramas le gustaría usar como ramas de desarrollo y producción, y cómo le gustaría que se nombraran sus prefijos. Simplemente puede presionar Retorno en cualquiera de esas preguntas para aceptar las (sensatas) sugerencias predeterminadas.
+
+La ``-d`` bandera aceptará todos los valores predeterminados.
+
+
+### Creación de ramas de funciones/versiones/revisiones/soporte
+
+* Para listar/comenzar/terminar ramas de características, use:
+  
+  ```bash
+  		$ git flow feature
+  		$ git flow feature start <name> [<base>]
+  		$ git flow feature finish <name>
+  ```
+
+Para las ramas de características, el `<base>` argumento debe ser una confirmación `develop`.
+  
+* Para enviar/extraer una rama de funciones al repositorio remoto, use:
+```bash
+  		$ git flow feature publish <name>
+		  $ git flow feature pull <remote> <name>
+```
+* Para listar/comenzar/finalizar las ramas de lanzamiento, use:
+    ```bash
+  		$ git flow release
+  		$ git flow release start <release> [<base>]
+  		$ git flow release finish <release>
+  ```
+
+  Para las ramas de lanzamiento, el `<base>` argumento debe ser una confirmación `develop`.
+
+  
+* Para enumerar/iniciar/finalizar las ramas de revisión, use:
+    ```bash
+  		$ git flow hotfix
+  		$ git flow hotfix start <release> [<base>]
+  		$ git flow hotfix finish <release>
+  ```
+  Para las ramas de revisión, el  `<base>`argumento debe ser una confirmación `master`.
+
+* Para listar/iniciar ramas de soporte, use:
+  ```bash
+      $ git flow support
+  	$ git flow support start <release> <base>
+  ```
+
+  Para las ramas de soporte, el `<base>` argumento debe ser una confirmación `master`.
+****
 ### Listado Comandos Más usados de Git
 
 Configurar Nombre que salen en los commits
