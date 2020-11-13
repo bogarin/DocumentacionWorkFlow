@@ -244,6 +244,10 @@ Añadimos todos los archivos dentro de un directorios
 ```bash
 	$ git add docs/
 ```
+Añadimos los alrchios aseptados uno por uno con una itneractividad en la temrinal para esojer
+```bash
+	$ git add -p
+```
 ### GIT COMMIT
 
 Cargar en el HEAD los cambios realizados
