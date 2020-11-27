@@ -248,6 +248,12 @@ Añadimos los alrchios aseptados uno por uno con una itneractividad en la temrin
 ```bash
 	$ git add -p
 ```
+Para deshacer el staging que hizo el git add ., puedes hacer:
+```bash
+	$ git reset
+```
+
+
 ### GIT COMMIT
 
 Cargar en el HEAD los cambios realizados
