@@ -244,9 +244,13 @@ Añadimos todos los archivos dentro de un directorios
 ```bash
 	$ git add docs/
 ```
-Añadimos los alrchios aseptados uno por uno con una itneractividad en la temrinal para esojer
+Añadimos los archivos aseptados uno por uno con una itneractividad en la temrinal para esojer
 ```bash
 	$ git add -p
+```
+Añadimos los archivos aseptados uno por uno con una itneractividad en la temrinal para esojer
+```bash
+	$ git add -i
 ```
 Para deshacer el staging que hizo el git add ., puedes hacer:
 ```bash
